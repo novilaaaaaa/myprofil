@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gray;
+    font-family: sans-serif;
+}
+
+header,
+section#profil,
+section#activities,
+footer {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    padding: 15px;
+}
+
+header,
+section#profil,
+section#activities {
+    background-color: white;
+    border-bottom: 2px solid orange;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+header h1 {
+    float: none;
+    font-size: 50px;
+    margin-top: 70px;
+    margin-left: 20px;
+    width: 100%;
+    border-bottom: 5px solid gray;
+}
+
+section#profil h1,
+section#activities h1 {
+    margin-bottom: 20px;
+}
+
+section#profil h1,
+section#activities h1 {
+    text-align: center;
+    font-size: 20px;
+    background-color: gray;
+    color: white;
+    padding: 10px;
+}
+
+#profil-content {
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+}
+
+#profil-content img {
+    max-width: 100%;
+    height: auto;
+    float: none;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#profil-content #deskripsi-profil {
+    width: 100%;
+    max-width: 750px;
+    float: none;
+    margin: auto;
+}
+
+#profil-content #deskripsi-profil p {
+    text-align: justify;
+}
+
+.item-activity {
+    padding: 10px;
+    text-align: center;
+}
+
+.item-activity img,
+.item-activity p {
+    width: 100%;
+    max-width: 700px;
+}
+
+.item-activity p {
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+footer {
+    background-color: black;
+}
+
+footer a {
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    background-color: green;
+    width: 200px;
+    margin: auto;
+    padding: 10px 0;
+}
+
+footer a:hover {
+    background-color: red;
+}
+
+.fix-container {
+    clear: both;
+}
+header {
+    background-color: white;
+    border-bottom: 2px solid orange;
+    text-align: center;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-container img {
+    width: 250px;
+    margin-bottom: 10px;
+}
+
+.header-container h1 {
+    font-size: 24px;
+}
+
+header {
+    background-color: white;
+    border-bottom: 2px solid orange;
+    text-align: center;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-container img {
+    width: 200px; /* Atur ukuran sesuai kebutuhan */
+    height: auto; /* Biarkan tinggi menyesuaikan agar tidak terdistorsi */
+}
+
+header h1 {
+    font-size: 24px;
+    margin-top: 10px;
+}
